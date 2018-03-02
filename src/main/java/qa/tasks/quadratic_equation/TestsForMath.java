@@ -1,4 +1,4 @@
-package qa.tasks;
+package qa.tasks.quadratic_equation;
 
 
 public class TestsForMath {

@@ -1,10 +1,10 @@
-package qa.tasks;
+package qa.tasks.quadratic_equation;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import static qa.tasks.Maths.*;
+import static qa.tasks.quadratic_equation.Maths.*;
 public class Dialog {
     public static void main(String[] args) throws IOException {
 

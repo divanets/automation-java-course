@@ -1,7 +1,7 @@
-package qa.tasks;
+package qa.tasks.quadratic_equation;
 
 
-import static qa.tasks.TestsForMath.Tests;
+import static qa.tasks.quadratic_equation.TestsForMath.Tests;
 
 public class Maths {
 
