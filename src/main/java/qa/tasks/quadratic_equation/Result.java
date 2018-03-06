@@ -14,13 +14,9 @@ public class Result {
         this.disRes = disRes;
     }
 
-
-
-
     public Result() {
 
     }
-
 
     public double getX1() {
         return x1;
