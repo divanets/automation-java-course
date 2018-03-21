@@ -9,7 +9,7 @@ import qa.tasks.lesson2.abstractSort.QuickSort;
 
 public class TestForAbstract {
 
-    
+
     @Test
     public void checkBSort() {
         int[] array = {2, 1, -2, 4, 3, 6, 0, -1, 1, 5};

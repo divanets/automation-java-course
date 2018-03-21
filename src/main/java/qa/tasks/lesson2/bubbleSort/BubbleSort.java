@@ -1,4 +1,4 @@
-package qa.tasks.lesson2.boobleSort;
+package qa.tasks.lesson2.bubbleSort;
 
 public class BubbleSort {
     public static void main(String[] args) {
