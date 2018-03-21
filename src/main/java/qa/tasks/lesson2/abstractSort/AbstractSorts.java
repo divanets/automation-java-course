@@ -3,9 +3,16 @@ package qa.tasks.lesson2.abstractSort;
 
 public abstract class AbstractSorts {
     public abstract void sort();
-
     final int[] array;
     int[] result;
+
+    public int[] getArray() {
+        return array;
+    }
+
+    public int[] getResult() {
+        return result;
+    }
 
     public AbstractSorts(int[] array) {
         this.array = array;
@@ -33,10 +40,6 @@ public abstract class AbstractSorts {
             System.out.print(array[i] + "  ");
         }
         System.out.println();
-    }
-
-    public int[] getResult() {
-        return result;
     }
 
 }
