@@ -15,11 +15,10 @@ public class TestForAbstract {
         int[] array = {2, 1, -2, 4, 3, 6, 0, -1, 1, 5};
         AbstractSorts sort = new BubbleSort(array);
         sort.sort();
-        sort.getArray();
         int[] newArr = sort.getArray();
         Assert.assertEquals(newArr[0], -2);
         Assert.assertEquals(newArr[newArr.length - 1], 6);
-        Assert.assertSame(newArr[3], newArr[4]);
+        Assert.assertSame(newArr[3], newArr[4]); //Better to use Equals
 
     }
 
@@ -28,11 +27,10 @@ public class TestForAbstract {
         int[] array = {2, 1, -2, 4, 3, 6, 0, -1, 1, 5};
         AbstractSorts sort = new QuickSort(array);
         sort.sort();
-        sort.getArray();
         int[] newArr = sort.getArray();
         Assert.assertEquals(newArr[0], -2);
         Assert.assertEquals(newArr[newArr.length - 1], 6);
-        Assert.assertSame(newArr[3], newArr[4]);
+        Assert.assertSame(newArr[3], newArr[4]);  //Better to use Equals
 
     }
 
